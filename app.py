@@ -1,8 +1,5 @@
 
 from flask import Flask, render_template, request, jsonify
-import pickle
-import numpy as np
-import sklearn
 import joblib
 from sklearn.preprocessing import StandardScaler
 
