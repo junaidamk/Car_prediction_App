@@ -1,6 +1,7 @@
 
 from flask import Flask, render_template, request, jsonify
 import joblib
+import pickle
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
